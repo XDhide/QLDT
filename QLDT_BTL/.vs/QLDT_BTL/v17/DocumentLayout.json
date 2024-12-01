@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93430A72-0C2B-4223-9430-CB3F1E76AA77}|QLDT_BTL\\QLDT_BTL.csproj|d:\\b\u00E0i t\u1EADp l\u1EDBn\\qldt_btl\\qldt_btl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{93430A72-0C2B-4223-9430-CB3F1E76AA77}|QLDT_BTL\\QLDT_BTL.csproj|solutionrelative:qldt_btl\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|d:\\b\u00E0i t\u1EADp l\u1EDBn\\qldt_btl\\gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|solutionrelative:gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|d:\\b\u00E0i t\u1EADp l\u1EDBn\\qldt_btl\\gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|solutionrelative:gui\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|d:\\b\u00E0i t\u1EADp l\u1EDBn\\qldt_btl\\gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|d:\\b\u00E0i t\u1EADp l\u1EDBn\\qldt_btl\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6C00A0-E346-4843-B3F4-6EE789C0D149}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,14 +34,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\QLDT_BTL\\Form1.cs",
-              "RelativeDocumentMoniker": "QLDT_BTL\\Form1.cs",
-              "ToolTip": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\QLDT_BTL\\Form1.cs [Design]",
-              "RelativeToolTip": "QLDT_BTL\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "fLogin.cs",
+              "DocumentMoniker": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\fLogin.cs",
+              "RelativeDocumentMoniker": "GUI\\fLogin.cs",
+              "ToolTip": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\fLogin.cs",
+              "RelativeToolTip": "GUI\\fLogin.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAnwBUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T15:14:30.115Z",
+              "WhenOpened": "2024-12-01T15:28:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "GUI\\Properties\\Resources.resx",
+              "ToolTip": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\Properties\\Resources.resx",
+              "RelativeToolTip": "GUI\\Properties\\Resources.resx",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwHgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-12-01T15:07:53.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:52:25.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\fLogin.cs",
+              "RelativeDocumentMoniker": "GUI\\fLogin.cs",
+              "ToolTip": "D:\\b\u00E0i t\u1EADp l\u1EDBn\\QLDT_BTL\\GUI\\fLogin.cs [Design]",
+              "RelativeToolTip": "GUI\\fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:50:08.882Z",
               "EditorCaption": " [Design]"
             }
           ]
