@@ -35,19 +35,23 @@
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnDangNhap = new System.Windows.Forms.Button();
-            this.btnThoatfLogin = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbThongBaoLogin = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.lbThongBaoLogin = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.btExit = new System.Windows.Forms.ToolStripButton();
+            this.btsmall = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(32, 73);
+            this.pictureBox1.Location = new System.Drawing.Point(44, 85);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(318, 302);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -94,39 +98,40 @@
             // btnDangNhap
             // 
             this.btnDangNhap.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap.Location = new System.Drawing.Point(121, 203);
+            this.btnDangNhap.Location = new System.Drawing.Point(176, 191);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(147, 62);
+            this.btnDangNhap.Size = new System.Drawing.Size(230, 62);
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = true;
             // 
-            // btnThoatfLogin
-            // 
-            this.btnThoatfLogin.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoatfLogin.Location = new System.Drawing.Point(305, 203);
-            this.btnThoatfLogin.Name = "btnThoatfLogin";
-            this.btnThoatfLogin.Size = new System.Drawing.Size(147, 62);
-            this.btnThoatfLogin.TabIndex = 5;
-            this.btnThoatfLogin.Text = "Thoát";
-            this.btnThoatfLogin.UseVisualStyleBackColor = true;
-            this.btnThoatfLogin.Click += new System.EventHandler(this.btnThoatfLogin_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.lbThongBaoLogin);
-            this.panel1.Controls.Add(this.btnThoatfLogin);
             this.panel1.Controls.Add(this.tbUserLogin);
             this.panel1.Controls.Add(this.btnDangNhap);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.tbPassword);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(381, 79);
+            this.panel1.Location = new System.Drawing.Point(393, 91);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(548, 296);
             this.panel1.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(0, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(544, 47);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Đăng Nhập";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lbThongBaoLogin
             // 
@@ -138,27 +143,52 @@
             this.lbThongBaoLogin.Size = new System.Drawing.Size(0, 22);
             this.lbThongBaoLogin.TabIndex = 6;
             // 
-            // label4
+            // toolStrip1
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(0, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(548, 49);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Đăng Nhập";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btExit,
+            this.btsmall});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1000, 27);
+            this.toolStrip1.TabIndex = 3;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // btExit
+            // 
+            this.btExit.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btExit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btExit.Image = global::GUI.Properties.Resources.Excape;
+            this.btExit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btExit.Name = "btExit";
+            this.btExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btExit.Size = new System.Drawing.Size(29, 28);
+            this.btExit.Text = "toolStripButton1";
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
+            // 
+            // btsmall
+            // 
+            this.btsmall.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.btsmall.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.btsmall.Image = global::GUI.Properties.Resources.Smallform;
+            this.btsmall.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btsmall.Name = "btsmall";
+            this.btsmall.Size = new System.Drawing.Size(29, 24);
+            this.btsmall.Text = "toolStripButton2";
+            this.btsmall.Click += new System.EventHandler(this.btsmall_Click);
             // 
             // fLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(982, 453);
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ClientSize = new System.Drawing.Size(1000, 500);
             this.ControlBox = false;
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(1000, 500);
             this.MinimumSize = new System.Drawing.Size(1000, 500);
             this.Name = "fLogin";
@@ -168,14 +198,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnThoatfLogin;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label label2;
@@ -184,6 +216,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lbThongBaoLogin;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton btExit;
+        private System.Windows.Forms.ToolStripButton btsmall;
     }
 }
 

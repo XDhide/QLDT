@@ -21,5 +21,15 @@ namespace GUI
         {
             Application.Exit();
         }
+
+        private void btExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btsmall_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

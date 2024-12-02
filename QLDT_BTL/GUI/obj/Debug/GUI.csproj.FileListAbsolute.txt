@@ -8,3 +8,17 @@ D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.exe
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.pdb
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\BLL.dll
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DTO.dll
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\BLL.pdb
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DTO.pdb
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.FormTestsControl.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.csproj.Up2Date
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fProductManagement.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fKho.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fQLNV.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fLichSuBan.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fQuanLyTaiKhoan.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fMenu.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fThongKeDoanhThu.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fThongKeNhanVienvSanPham.resources
