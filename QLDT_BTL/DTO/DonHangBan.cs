@@ -14,8 +14,9 @@ namespace DTO
         public int SoLuong { get; set; }
         public string NgayBan { get; set; }
         public string ThanhTien { get; set; }
+        public string GhiChu {  get; set; }
 
-        public DonHangBan(string maDHB, string maSanPham, string maKhachHang, int soLuong, string ngayBan, string thanhTien)
+        public DonHangBan(string maDHB, string maSanPham, string maKhachHang, int soLuong, string ngayBan, string thanhTien, string ghiChu)
         {
             MaDHB = maDHB;
             MaSanPham = maSanPham;
@@ -23,6 +24,7 @@ namespace DTO
             SoLuong = soLuong;
             NgayBan = ngayBan;
             ThanhTien = thanhTien;
+            GhiChu = ghiChu;
         }
     }
 }

@@ -14,13 +14,16 @@ namespace DTO
         public string NgayBaoHanh { get; set; }
         public string TrangThai { get; set; }
 
-        public BaoHanh(string maBaoHanh, string maDHB, string maNhanVien, string ngayBaoHanh, string trangThai)
+        public string GhiChu {  get; set; }
+
+        public BaoHanh(string maBaoHanh, string maDHB, string maNhanVien, string ngayBaoHanh, string trangThai, string ghiChu)
         {
             MaBaoHanh = maBaoHanh;
             MaDHB = maDHB;
             MaNhanVien = maNhanVien;
             NgayBaoHanh = ngayBaoHanh;
             TrangThai = trangThai;
+            GhiChu = ghiChu;
         }
     }
 }

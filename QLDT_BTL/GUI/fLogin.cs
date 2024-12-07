@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
 
 namespace GUI
 {
     public partial class fLogin : Form
     {
+        LoginCheck LoginCheck = new LoginCheck();
         public fLogin()
         {
             InitializeComponent();
@@ -40,6 +42,46 @@ namespace GUI
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        fMenu menu = new fMenu();
+        private void btLogin_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(LoginCheck.Login(tbTaiKhoan.Text, tbMatKhau.Text));
+            if (LoginCheck.Login(tbTaiKhoan.Text, tbMatKhau.Text) == "Dang Nhap Thanh Cong voi quyen Admin")
+            {
+                fMenu.Role = "ADMIN";
+                this.Hide();
+                menu.ShowDialog();
+                this.Show();
+                
+            }
+            else if (LoginCheck.Login(tbTaiKhoan.Text, tbMatKhau.Text) == "Dang Nhap Thanh Cong voi quyen Staff")
+            {
+                fMenu.Role = "STAFF";
+                this.Hide();
+                menu.ShowDialog();
+                this.Show();
+                
+            }
+            else
+            {
+                MessageBox.Show("Dang Nhap That Bai");
+            }
+        }
+        
+        private void fLogin_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

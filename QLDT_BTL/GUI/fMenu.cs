@@ -12,6 +12,7 @@ namespace GUI
 {
     public partial class fMenu : Form
     {
+        public static string Role {  get; set; }
         public fMenu()
         {
             InitializeComponent();
@@ -87,7 +88,18 @@ namespace GUI
 
         private void fMenu_Load(object sender, EventArgs e)
         {
-
+            if(Role == "ADMIN")
+            {
+                btlis1.Enabled = true;
+            }
+            else if(Role == "STAFF")
+            {
+                btlis1.Enabled=false;
+            }
+            else
+            {
+                btlis1.Enabled = true;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -116,6 +128,16 @@ namespace GUI
         private void btQuanly_Click(object sender, EventArgs e)
         {
             menuTranstion.Start();
+        }
+
+        private void fMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Role = null;
+        }
+
+        private void MenuTask_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

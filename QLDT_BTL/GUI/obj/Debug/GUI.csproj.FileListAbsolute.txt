@@ -54,3 +54,5 @@ D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmLichSuBan.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLyNhanVien.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLySanPham.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DAL.dll
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DAL.pdb
