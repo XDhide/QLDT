@@ -21,9 +21,27 @@ namespace GUI
         {
 
         }
+        bool buttonTranssion = false;
         private void menuTranstion_Tick(object sender, EventArgs e)
         {
-            
+            if (buttonTranssion)
+            {
+                btlis1.Height += 5;
+                if (btlis1.Height >= 270)
+                {
+                    menuTranstion.Stop();
+                    buttonTranssion = false;
+                }
+            }
+            else
+            {
+                btlis1.Height -= 5;
+                if (btlis1.Height <= 50)
+                {
+                    menuTranstion.Stop();
+                    buttonTranssion = true;
+                }
+            }
         }
 
         private void btOpenMenu_Click(object sender, EventArgs e)
@@ -44,7 +62,7 @@ namespace GUI
             }else
             {
                 MenuTask.Width += 5;
-                if (MenuTask.Width >= 350)
+                if (MenuTask.Width >= 230)
                 {
                     MenuBarTranstion.Stop();
                     menuBarExpand = true;
@@ -64,7 +82,7 @@ namespace GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void fMenu_Load(object sender, EventArgs e)
@@ -85,6 +103,19 @@ namespace GUI
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmQuanLySanPham qlsp = new frmQuanLySanPham();
+            qlsp.MdiParent = this;
+            qlsp.Dock = DockStyle.Fill;
+            qlsp.Show();
+        }
+
+        private void btQuanly_Click(object sender, EventArgs e)
+        {
+            menuTranstion.Start();
         }
     }
 }

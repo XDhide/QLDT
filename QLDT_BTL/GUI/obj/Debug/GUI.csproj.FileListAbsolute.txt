@@ -14,13 +14,9 @@ D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\BLL.pdb
 D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DTO.pdb
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.FormTestsControl.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.csproj.Up2Date
-D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fProductManagement.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fKho.resources
-D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fQLNV.resources
-D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fLichSuBan.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fQuanLyTaiKhoan.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fMenu.resources
-D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fThongKeDoanhThu.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.fThongKeNhanVienvSanPham.resources
 D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\GUI\bin\Debug\GUI.exe.config
 D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\GUI\bin\Debug\GUI.exe
@@ -50,3 +46,11 @@ D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLySanPham.r
 D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
 D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmDangKiSuaChua.resources
 D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmDanhSachSuaChua.resources
+D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\Guna.UI2.dll
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmDangKiSuaChua.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmDanhSachSuaChua.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmDatHang.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmLichSuBan.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLyNhanVien.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLySanPham.resources
+D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
