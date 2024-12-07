@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class fLichSuBan : Form
+    public partial class frmThongKeDoanhThu : Form
     {
-        public fLichSuBan()
+        public frmThongKeDoanhThu()
         {
             InitializeComponent();
+        }
+
+        private void chart1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

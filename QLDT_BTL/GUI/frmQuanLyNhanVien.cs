@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class fProductManagement : Form
+    public partial class frmQuanLyNhanVien : Form
     {
-        public fProductManagement()
+        public frmQuanLyNhanVien()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

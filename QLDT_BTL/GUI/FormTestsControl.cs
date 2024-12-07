@@ -28,8 +28,7 @@ namespace GUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            fProductManagement fProductManagement = new fProductManagement();
-            this.Hide(); fProductManagement.ShowDialog(); this.ShowDialog();
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -40,16 +39,13 @@ namespace GUI
 
         private void button4_Click(object sender, EventArgs e)
         {
-            fQLNV fQLNV = new fQLNV();
+            frmQuanLyNhanVien fQLNV = new frmQuanLyNhanVien();
             this.Hide(); fQLNV.ShowDialog();this.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            fLichSuBan fLichSuBan = new fLichSuBan();
-            this.Hide();
-            fLichSuBan.ShowDialog();
-            this.ShowDialog();
+           
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -62,10 +58,7 @@ namespace GUI
 
         private void button7_Click(object sender, EventArgs e)
         {
-            fThongKeDoanhThu fLichSuBan = new fThongKeDoanhThu();
-            this.Hide();
-            fLichSuBan.ShowDialog();
-            this.ShowDialog();
+         
         }
 
         private void button8_Click(object sender, EventArgs e)

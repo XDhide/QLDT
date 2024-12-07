@@ -9,3 +9,14 @@ D:\bài tập lớn\QLDT_BTL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\bài tập lớn\QLDT_BTL\BLL\obj\Debug\BLL.csproj.Up2Date
 D:\bài tập lớn\QLDT_BTL\BLL\obj\Debug\BLL.dll
 D:\bài tập lớn\QLDT_BTL\BLL\obj\Debug\BLL.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\bin\Debug\BLL.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\bin\Debug\BLL.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\bin\Debug\DAL.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\bin\Debug\DTO.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\bin\Debug\DAL.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\bin\Debug\DTO.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\obj\Debug\BLL.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT_BTL\BLL\obj\Debug\BLL.pdb
