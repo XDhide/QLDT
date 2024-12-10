@@ -56,7 +56,7 @@ namespace GUI
         fMenu menu = new fMenu();
         private void btLogin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(LoginCheck.Login(tbTaiKhoan.Text, tbMatKhau.Text));
+
             if (LoginCheck.Login(tbTaiKhoan.Text, tbMatKhau.Text) == "Dang Nhap Thanh Cong voi quyen Admin")
             {
                 fMenu.Role = "ADMIN";

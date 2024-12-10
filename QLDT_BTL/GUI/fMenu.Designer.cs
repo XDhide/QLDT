@@ -43,9 +43,9 @@
             this.button5 = new System.Windows.Forms.Button();
             this.btlis1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btQuanly = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btQuanLyNhanVien = new System.Windows.Forms.Button();
+            this.btQuanLySanPham = new System.Windows.Forms.Button();
+            this.btQuanLyTaiKhoan = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2AnimateWindow2 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
@@ -67,7 +67,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1920, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(1920, 27);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "Cửa hàng điện thoại";
             // 
@@ -77,14 +77,14 @@
             this.btOpenMenu.Image = ((System.Drawing.Image)(resources.GetObject("btOpenMenu.Image")));
             this.btOpenMenu.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btOpenMenu.Name = "btOpenMenu";
-            this.btOpenMenu.Size = new System.Drawing.Size(29, 28);
+            this.btOpenMenu.Size = new System.Drawing.Size(29, 24);
             this.btOpenMenu.Text = "toolStripButton1";
             this.btOpenMenu.Click += new System.EventHandler(this.btOpenMenu_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // btExit
             // 
@@ -94,7 +94,7 @@
             this.btExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btExit.Name = "btExit";
             this.btExit.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btExit.Size = new System.Drawing.Size(29, 28);
+            this.btExit.Size = new System.Drawing.Size(29, 24);
             this.btExit.Text = "toolStripButton2";
             this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
@@ -105,7 +105,7 @@
             this.btHidemenu.Image = ((System.Drawing.Image)(resources.GetObject("btHidemenu.Image")));
             this.btHidemenu.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btHidemenu.Name = "btHidemenu";
-            this.btHidemenu.Size = new System.Drawing.Size(29, 28);
+            this.btHidemenu.Size = new System.Drawing.Size(29, 24);
             this.btHidemenu.Text = "toolStripButton3";
             this.btHidemenu.Click += new System.EventHandler(this.btHidemenu_Click);
             // 
@@ -115,7 +115,7 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton1.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton1.Text = "toolStripButton1";
             // 
             // menuTranstion
@@ -137,9 +137,9 @@
             this.MenuTask.Controls.Add(this.btlis1);
             this.MenuTask.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuTask.ForeColor = System.Drawing.Color.White;
-            this.MenuTask.Location = new System.Drawing.Point(0, 31);
+            this.MenuTask.Location = new System.Drawing.Point(0, 27);
             this.MenuTask.Name = "MenuTask";
-            this.MenuTask.Size = new System.Drawing.Size(293, 849);
+            this.MenuTask.Size = new System.Drawing.Size(293, 853);
             this.MenuTask.TabIndex = 3;
             this.MenuTask.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuTask_Paint);
             // 
@@ -178,13 +178,13 @@
             // btlis1
             // 
             this.btlis1.Controls.Add(this.btQuanly);
-            this.btlis1.Controls.Add(this.button7);
-            this.btlis1.Controls.Add(this.button6);
-            this.btlis1.Controls.Add(this.button8);
+            this.btlis1.Controls.Add(this.btQuanLyNhanVien);
+            this.btlis1.Controls.Add(this.btQuanLySanPham);
+            this.btlis1.Controls.Add(this.btQuanLyTaiKhoan);
             this.btlis1.Controls.Add(this.button2);
             this.btlis1.Location = new System.Drawing.Point(3, 139);
             this.btlis1.Name = "btlis1";
-            this.btlis1.Size = new System.Drawing.Size(288, 67);
+            this.btlis1.Size = new System.Drawing.Size(288, 348);
             this.btlis1.TabIndex = 6;
             // 
             // btQuanly
@@ -204,51 +204,53 @@
             this.btQuanly.UseVisualStyleBackColor = false;
             this.btQuanly.Click += new System.EventHandler(this.btQuanly_Click);
             // 
-            // button7
+            // btQuanLyNhanVien
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.Control;
-            this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(3, 67);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(276, 69);
-            this.button7.TabIndex = 11;
-            this.button7.Text = "         Quản lý nhân viên";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = false;
+            this.btQuanLyNhanVien.BackColor = System.Drawing.SystemColors.Control;
+            this.btQuanLyNhanVien.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btQuanLyNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btQuanLyNhanVien.Image")));
+            this.btQuanLyNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btQuanLyNhanVien.Location = new System.Drawing.Point(3, 67);
+            this.btQuanLyNhanVien.Name = "btQuanLyNhanVien";
+            this.btQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btQuanLyNhanVien.Size = new System.Drawing.Size(276, 69);
+            this.btQuanLyNhanVien.TabIndex = 11;
+            this.btQuanLyNhanVien.Text = "         Quản lý nhân viên";
+            this.btQuanLyNhanVien.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btQuanLyNhanVien.UseVisualStyleBackColor = false;
+            this.btQuanLyNhanVien.Click += new System.EventHandler(this.btQuanLyNhanVien_Click);
             // 
-            // button6
+            // btQuanLySanPham
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.Control;
-            this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(3, 142);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(276, 63);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "         Quản lý sản phẩm";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btQuanLySanPham.BackColor = System.Drawing.SystemColors.Control;
+            this.btQuanLySanPham.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btQuanLySanPham.Image = ((System.Drawing.Image)(resources.GetObject("btQuanLySanPham.Image")));
+            this.btQuanLySanPham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btQuanLySanPham.Location = new System.Drawing.Point(3, 142);
+            this.btQuanLySanPham.Name = "btQuanLySanPham";
+            this.btQuanLySanPham.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btQuanLySanPham.Size = new System.Drawing.Size(276, 63);
+            this.btQuanLySanPham.TabIndex = 10;
+            this.btQuanLySanPham.Text = "         Quản lý sản phẩm";
+            this.btQuanLySanPham.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btQuanLySanPham.UseVisualStyleBackColor = false;
+            this.btQuanLySanPham.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button8
+            // btQuanLyTaiKhoan
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.Control;
-            this.button8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(3, 211);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(276, 65);
-            this.button8.TabIndex = 12;
-            this.button8.Text = "         Quản lý tài khoản";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = false;
+            this.btQuanLyTaiKhoan.BackColor = System.Drawing.SystemColors.Control;
+            this.btQuanLyTaiKhoan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btQuanLyTaiKhoan.Image = ((System.Drawing.Image)(resources.GetObject("btQuanLyTaiKhoan.Image")));
+            this.btQuanLyTaiKhoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btQuanLyTaiKhoan.Location = new System.Drawing.Point(3, 211);
+            this.btQuanLyTaiKhoan.Name = "btQuanLyTaiKhoan";
+            this.btQuanLyTaiKhoan.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btQuanLyTaiKhoan.Size = new System.Drawing.Size(276, 65);
+            this.btQuanLyTaiKhoan.TabIndex = 12;
+            this.btQuanLyTaiKhoan.Text = "         Quản lý tài khoản";
+            this.btQuanLyTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btQuanLyTaiKhoan.UseVisualStyleBackColor = false;
+            this.btQuanLyTaiKhoan.Click += new System.EventHandler(this.btQuanLyTaiKhoan_Click);
             // 
             // button2
             // 
@@ -318,9 +320,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btQuanLySanPham;
+        private System.Windows.Forms.Button btQuanLyNhanVien;
+        private System.Windows.Forms.Button btQuanLyTaiKhoan;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel btlis1;
         private System.Windows.Forms.Button btQuanly;

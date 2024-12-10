@@ -139,5 +139,21 @@ namespace GUI
         {
 
         }
+
+        private void btQuanLyNhanVien_Click(object sender, EventArgs e)
+        {
+            frmQuanLyNhanVien qlnv = new frmQuanLyNhanVien();
+            qlnv.MdiParent = this;
+            qlnv.Dock = DockStyle.Fill;
+            qlnv.Show();
+        }
+
+        private void btQuanLyTaiKhoan_Click(object sender, EventArgs e)
+        {
+            fQuanLyTaiKhoan qlnv = new fQuanLyTaiKhoan();
+            qlnv.MdiParent = this;
+            qlnv.Dock = DockStyle.Fill;
+            qlnv.Show();
+        }
     }
 }
