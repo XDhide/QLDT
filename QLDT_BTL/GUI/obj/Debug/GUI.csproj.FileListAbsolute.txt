@@ -56,3 +56,32 @@ D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLySanPham.resources
 D:\bài tập lớn\QLDT_BTL\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
 D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DAL.dll
 D:\bài tập lớn\QLDT_BTL\GUI\bin\Debug\DAL.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\GUI.exe.config
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\GUI.exe
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\GUI.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\BLL.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\DTO.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\Guna.UI2.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\DAL.dll
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\BLL.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\DTO.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\bin\Debug\DAL.pdb
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.fKho.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.fLogin.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.fMenu.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.FormTestsControl.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmDanhSachSuaChua.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmDatHang.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmLichSuBan.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLyNhanVien.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.fQuanLyTaiKhoan.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmQuanLySanPham.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.fThongKeNhanVienvSanPham.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.csproj.Up2Date
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.exe
+D:\Quản Lý Điện Thoại\QLDT\QLDT\QLDT_BTL\GUI\obj\Debug\GUI.pdb
