@@ -66,6 +66,14 @@ namespace DAL
             {
                 return "Khong Ton Tai Ma Don Hang Ban";
             }
+            check = "SELECT MaBaoHanh from BaoHanh Where MaBaoHanh = @MaBaoHanh";
+             cmm = new SqlCommand(check, DatabaseConnect.Conn);
+            cmm.Parameters.AddWithValue("@MaBaoHanh", bh.MaBaoHanh);
+             sqlDataReader = cmm.ExecuteReader();
+            if (!sqlDataReader.HasRows)
+            {
+                return "Ma Bao Hanh Khong Ton Tai";
+            }
             check = "SELECT MaNhanVien from NhanVien Where MaNhanVien = @MaNhanVien";
             cmm = new SqlCommand(check, DatabaseConnect.Conn);
             cmm.Parameters.AddWithValue("@MaSanPham", bh.MaNhanVien);

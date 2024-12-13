@@ -45,6 +45,23 @@ namespace DAL
         public string Sua(TaiKhoan tk)
         {
             DatabaseConnect.OpenDatabase();
+
+            string check = "SELECT MaTaiKhoan from TaiKhoan Where MaTaiKhoan = @MaTaiKhoan";
+            SqlCommand cmm = new SqlCommand(check, DatabaseConnect.Conn);
+            cmm.Parameters.AddWithValue("@MaTaiKhoan", tk.MaTaiKhoan);
+            SqlDataReader sqlDataReader = cmm.ExecuteReader();
+            if (!sqlDataReader.HasRows)
+            {
+                return "Tai Khoan Khong Ton Tai";
+            }
+            string check2 = "SELECT MaNhanVien from NhanVien Where MaNhanVien = @MaNhanVien";
+            SqlCommand cmmm = new SqlCommand(check2, DatabaseConnect.Conn);
+            cmm.Parameters.AddWithValue("@MaNhanVien", tk.MaNhanVien);
+            SqlDataReader sqlDataReader2 = cmmm.ExecuteReader();
+            if (!sqlDataReader2.HasRows)
+            {
+                return "Nhan Vien khong Ton Tai";
+            }
             string update = "UPDATE TaiKhoan SET MaNhanVien = @MaNhanVien, TaiKhoan = @TaiKhoan, MatKhau = @MatKhau WHERE MaTaiKhoan = @MaTaiKhoan";
             SqlCommand cm = new SqlCommand(update, DatabaseConnect.Conn);
             cm.Parameters.AddWithValue("@MaTaiKhoan", tk.MaTaiKhoan);
