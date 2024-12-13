@@ -44,6 +44,11 @@
     <Compile Include="DatabaseConnect.cs" />
     <Compile Include="LoginTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLBaoHanh.cs" />
+    <Compile Include="SQLDonHangBan.cs" />
+    <Compile Include="SQLKhachHang.cs" />
+    <Compile Include="SQLNhanVien.cs" />
+    <Compile Include="SqlTaiKhoan.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">

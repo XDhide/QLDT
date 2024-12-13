@@ -43,6 +43,11 @@
   <ItemGroup>
     <Compile Include="LoginCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLBaoHanhCheck.cs" />
+    <Compile Include="SQLDonHangBanCheck.cs" />
+    <Compile Include="SQLKhachHangCheck.cs" />
+    <Compile Include="SQLNhanVienCheck.cs" />
+    <Compile Include="SQLTaiKhoanCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
