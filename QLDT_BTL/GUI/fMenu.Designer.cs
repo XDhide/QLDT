@@ -44,15 +44,21 @@
             this.btlis1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btQuanly = new System.Windows.Forms.Button();
             this.btQuanLyNhanVien = new System.Windows.Forms.Button();
-            this.btQuanLySanPham = new System.Windows.Forms.Button();
             this.btQuanLyTaiKhoan = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.guna2AnimateWindow2 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.label1 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.MenuTask.SuspendLayout();
             this.btlis1.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -67,7 +73,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1920, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1920, 31);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "Cửa hàng điện thoại";
             // 
@@ -77,7 +83,7 @@
             this.btOpenMenu.Image = ((System.Drawing.Image)(resources.GetObject("btOpenMenu.Image")));
             this.btOpenMenu.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btOpenMenu.Name = "btOpenMenu";
-            this.btOpenMenu.Size = new System.Drawing.Size(29, 24);
+            this.btOpenMenu.Size = new System.Drawing.Size(29, 28);
             this.btOpenMenu.Text = "toolStripButton1";
             this.btOpenMenu.Click += new System.EventHandler(this.btOpenMenu_Click);
             // 
@@ -133,13 +139,14 @@
             this.MenuTask.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.MenuTask.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.MenuTask.Controls.Add(this.button1);
-            this.MenuTask.Controls.Add(this.button5);
+            this.MenuTask.Controls.Add(this.button8);
+            this.MenuTask.Controls.Add(this.flowLayoutPanel1);
             this.MenuTask.Controls.Add(this.btlis1);
             this.MenuTask.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuTask.ForeColor = System.Drawing.Color.White;
-            this.MenuTask.Location = new System.Drawing.Point(0, 27);
+            this.MenuTask.Location = new System.Drawing.Point(0, 31);
             this.MenuTask.Name = "MenuTask";
-            this.MenuTask.Size = new System.Drawing.Size(293, 853);
+            this.MenuTask.Size = new System.Drawing.Size(293, 849);
             this.MenuTask.TabIndex = 3;
             this.MenuTask.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuTask_Paint);
             // 
@@ -166,7 +173,7 @@
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(3, 67);
+            this.button5.Location = new System.Drawing.Point(3, 207);
             this.button5.Name = "button5";
             this.button5.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.button5.Size = new System.Drawing.Size(276, 66);
@@ -179,10 +186,9 @@
             // 
             this.btlis1.Controls.Add(this.btQuanly);
             this.btlis1.Controls.Add(this.btQuanLyNhanVien);
-            this.btlis1.Controls.Add(this.btQuanLySanPham);
             this.btlis1.Controls.Add(this.btQuanLyTaiKhoan);
             this.btlis1.Controls.Add(this.button2);
-            this.btlis1.Location = new System.Drawing.Point(3, 139);
+            this.btlis1.Location = new System.Drawing.Point(3, 498);
             this.btlis1.Name = "btlis1";
             this.btlis1.Size = new System.Drawing.Size(288, 348);
             this.btlis1.TabIndex = 6;
@@ -220,29 +226,13 @@
             this.btQuanLyNhanVien.UseVisualStyleBackColor = false;
             this.btQuanLyNhanVien.Click += new System.EventHandler(this.btQuanLyNhanVien_Click);
             // 
-            // btQuanLySanPham
-            // 
-            this.btQuanLySanPham.BackColor = System.Drawing.SystemColors.Control;
-            this.btQuanLySanPham.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btQuanLySanPham.Image = ((System.Drawing.Image)(resources.GetObject("btQuanLySanPham.Image")));
-            this.btQuanLySanPham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btQuanLySanPham.Location = new System.Drawing.Point(3, 142);
-            this.btQuanLySanPham.Name = "btQuanLySanPham";
-            this.btQuanLySanPham.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.btQuanLySanPham.Size = new System.Drawing.Size(276, 63);
-            this.btQuanLySanPham.TabIndex = 10;
-            this.btQuanLySanPham.Text = "         Quản lý sản phẩm";
-            this.btQuanLySanPham.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btQuanLySanPham.UseVisualStyleBackColor = false;
-            this.btQuanLySanPham.Click += new System.EventHandler(this.button6_Click);
-            // 
             // btQuanLyTaiKhoan
             // 
             this.btQuanLyTaiKhoan.BackColor = System.Drawing.SystemColors.Control;
             this.btQuanLyTaiKhoan.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btQuanLyTaiKhoan.Image = ((System.Drawing.Image)(resources.GetObject("btQuanLyTaiKhoan.Image")));
             this.btQuanLyTaiKhoan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btQuanLyTaiKhoan.Location = new System.Drawing.Point(3, 211);
+            this.btQuanLyTaiKhoan.Location = new System.Drawing.Point(3, 142);
             this.btQuanLyTaiKhoan.Name = "btQuanLyTaiKhoan";
             this.btQuanLyTaiKhoan.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btQuanLyTaiKhoan.Size = new System.Drawing.Size(276, 65);
@@ -258,7 +248,7 @@
             this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(3, 282);
+            this.button2.Location = new System.Drawing.Point(3, 213);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.button2.Size = new System.Drawing.Size(276, 71);
@@ -280,6 +270,94 @@
             this.label1.Text = "Quản Lý Điện Thoại";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Controls.Add(this.button6);
+            this.flowLayoutPanel1.Controls.Add(this.button7);
+            this.flowLayoutPanel1.Controls.Add(this.button5);
+            this.flowLayoutPanel1.Controls.Add(this.button4);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 144);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(288, 348);
+            this.flowLayoutPanel1.TabIndex = 7;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.Control;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(3, 3);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(276, 58);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "      Sản phẩm";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.Control;
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(3, 279);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(276, 69);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "         Bảo hành";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.Control;
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(3, 67);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(276, 63);
+            this.button6.TabIndex = 10;
+            this.button6.Text = "         Quản lý sản phẩm";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.Control;
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(3, 136);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(276, 65);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "         Kho";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.SystemColors.Control;
+            this.button8.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(3, 67);
+            this.button8.Name = "button8";
+            this.button8.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button8.Size = new System.Drawing.Size(276, 71);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "           Đặt hàng";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
             // fMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -299,6 +377,7 @@
             this.toolStrip1.PerformLayout();
             this.MenuTask.ResumeLayout(false);
             this.btlis1.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,11 +399,16 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button btQuanLySanPham;
         private System.Windows.Forms.Button btQuanLyNhanVien;
         private System.Windows.Forms.Button btQuanLyTaiKhoan;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel btlis1;
         private System.Windows.Forms.Button btQuanly;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
     }
 }
